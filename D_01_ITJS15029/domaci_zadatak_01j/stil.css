@@ -1,0 +1,53 @@
+.levo {
+    background-color:#DFE0E0;
+    float: left;
+    width: 25%;
+    padding-bottom: 200px;
+}
+
+.desno {
+
+    float: right;
+    width: 65%;
+    background-color: white;
+}
+
+img {
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    color: #D0826F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, li {
+    color: #263547;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color:#DFE0E0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DFE0E0;
+    text-align: center;
+  }
