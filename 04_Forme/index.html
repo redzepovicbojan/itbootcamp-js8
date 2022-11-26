@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.php" method="get">
+        <fieldset>
+            <legend>Osnovni podaci</legend>
+            <p>
+                <label for="ime">Ime i prezime: </label>
+                <input type="text" name="ime" maxlength="8" value="" placeholder="Unesi ime" id="ime">
+            </p>
+            <p>
+                <label for="username">Korisnicko ime: </label>
+                <input type="text" name="username" maxlength="12" value="" placeholder="Unesi korisnicko ime" id="username">
+            </p>
+            <p>
+                <label for="ps">Lozinka: </label>
+                <input type="password" name="sifra" maxlength="12" value="" placeholder="Unesi sifru" id="ps">
+            </p>
+
+            <input name="ime proizvoda" type="hidden" id="skriven" value="100">
+
+            <p>
+                <label for="godine">Godine:</label>
+                <input type="number" id="godine" placeholder="Unesi godine" min="18" step="2">
+            </p>
+            <p>
+                <label for="em">Email:</label>
+                <input type="email" id="em">
+            </p>
+            <p>
+                <label for="pol">Odaberite pol:</label>
+                <input type="radio" name="pol" id="z" value="z" checked> Zenski
+                <input type="radio" name="pol" id="m" value="m"> Muski
+                <input type="radio" name="pol" id="n" value="d"> Drugo
+            </p>
+
+            <p>
+                <label for="pj">Odaberite programski jezik</label>
+                <input type="checkbox" name="pj" id="html" value="html">HTML
+                <input type="checkbox" name="pj" id="css" value="css">CSS
+                <input type="checkbox" name="pj" id="js" value="js">JS
+                <input type="checkbox" name="pj" id="php" value="php">PHP
+            </p>
+
+            <p>
+                <label for="grad">Grad:</label>
+                <select name="grad" id="grad">
+                    <optgroup label="Centralna Srbija">
+                        <option value="nis">Nis</option>
+                        <option value="kg">Kragujevac</option>
+                    </optgroup>
+                    <optgroup label="Juzna Srbija">
+                        <option value="bg">Beograd</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iskustva">Koja su vasa iskustva za ovaj sajt?</label>
+                <textarea name="iskustva" id="iskustva" cols="30" rows="10">Sve je super</textarea>
+            </p>
+
+            <input type="submit" value="Poslati">
+        </fieldset>
+    </form>
+</body>
+</html>  
