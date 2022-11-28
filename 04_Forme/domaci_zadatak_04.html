@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <title>Forms - Homework</title>
+</head>
+<body>
+    <form action="test.php" method="post">
+        <fieldset>
+            <legend>Login details</legend>
+            <p>
+                <label for="ime">Name:</label>
+                <input type="text" name="ime" maxlength="50"  value="" id="ime" class="odvajanje">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" value="" class="odvajanje">
+            </p>
+            <p>
+                <label for="sifra">Password:</label>
+                <input type="password" name="sifra" id="sifra" maxlength="20" minlength="8" class="odvajanje">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Your feedback</legend>
+            <div id="odvajanjediva">
+                <label for="emotions">Please check all the emotions that apply to you:</label>
+                <p>Angry<input type="checkbox" name="emotion" id="angry" value="angry" class="odvajanje"></p> 
+                <p>Sad<input type="checkbox" name="emotion" id="sad" value="sad" class="odvajanje"></p>
+                <p>Happy<input type="checkbox" name="emotion" id="happy" value="happy" class="odvajanje"></p>
+                <p>Ambivalent<input type="checkbox" name="emotion" id="ambivalent" value="ambivalent" class="odvajanje"></p>
+                <label for="satisf">How satisfied were you with our service?</label>
+                <p>Very satisfied<input type="radio" name="satisf" id="very_satisfied" class="odvajanje"></p>
+                <p>Satisfied<input type="radio" name="satisf" id="satisfied" class="odvajanje"></p>
+                <p>Don't care<input type="radio" name="satisf" id="dont_care" class="odvajanje"></p>
+                <p>Dissatisfied<input type="radio" name="satisf" id="dissatisfied" class="odvajanje"></p>
+                <p>Very dissatisfied<input type="radio" name="satisf" id="very_dissatisfied" class="odvajanje"></p>
+                <label for="comments">Further comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+            </div>
+        </fieldset>
+        <p>
+            <label for="photo">Big photo:</label>
+            <input type="file" name="photo" id="photo">
+        </p>
+        <p><label for="location">Location visited:</label>
+            <select name="location" id="location" form="Select location">
+                <option value="bg">Beograd</option>
+                <option value="ns">Novi Sad</option>
+                <option value="ni">Nis</option>
+                <option value="kg">Kragujevac</option>
+            </select>
+        </p>
+        <p><input type="submit" value="Submit" class="odvajanje"></p>
+        <p><input type="reset" value="Reset" class="odvajanje"></p>
+    </form>
+</body>
+</html>
