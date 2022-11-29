@@ -6,7 +6,7 @@ div {
 }
 
 #div2 {
-    position: relative;
+    position: fixed;
     top:50px;
     left: 35px;
 }
@@ -24,4 +24,9 @@ div {
     left: 10px;
     top: 10px;
     background-color: blanchedalmond;
+}
+
+div:first-of-type {
+    position: relative;
+    z-index: 1;
 }
