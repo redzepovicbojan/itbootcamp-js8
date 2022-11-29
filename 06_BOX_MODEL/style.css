@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    background-color: blueviolet;
+    /*
+    border-top: dashed;
+    border-top-color: black;
+    border-top-width: 4px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 30%;
+    */
+    /*
+    padding-top: 6px;
+    padding-left: 12px;
+    */
+    padding: 5px 20px 10px 15px;
+    margin: 10px;
+    border: 4px dashed black;
+
+}
+
+p{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+}
+
+span {
+    background-color: aquamarine;
+    border: 5px solid black;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin:0;
+    width: 50%;
+    height: 50px;
+    display:inline-block;
+}
+
+
+
+/* Display svojstvo: nacin prikaza HTML elementa
+    BLOCK - ovakvim elementaim moze da se podesi width i height
+
+        p, div, h1...h6, table, li
+        zauzimaju prostor celom duzinom ekrana
+
+
+    INLINE - ne moze da se podesi width i height
+
+        span, a, td, 
+
+    INLINE-BLOCK
+
+*/
