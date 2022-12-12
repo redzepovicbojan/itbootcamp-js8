@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.meni ul {
+    float: left;
+    overflow: hidden;
+}
+
+.toolbar {
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+.toolbar ul {
+    list-style: none;
+}
+
+.meni a {
+    background-color: black;
+}
+
+.meni a:hover {
+    background-color: darkblue;
+}
+
+.meni li {
+    float: left;
+    display: block;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: darkblue;
+    float: left;
+    padding: 10px 100px 10px 10px;
+}
+
+.logovanje a{
+    background-color: darkblue;
+} 
+
+.logovanje li {
+    float: right;
+}
+
+.logovanje a:hover {
+    background-color: black;
+}
+
+.podmeni {
+    display: none;
+}
+
+.meni li:nth-child(3):hover .podmeni {
+    display: block;
+}

@@ -14,14 +14,12 @@
 .toolbar ul{
     list-style: none;
     overflow: hidden;
-
 }
 
 .toolbar ul li {
     background-color: brown;
     border: 1px solid white;
     float:left;
-    width:25%;
     text-align: center;
    
 }
@@ -68,11 +66,11 @@
 }
 
 /* Padajuci meni*/
-
+/* 
 .submenu {
     display: none;
 }
 
 .toolbar ul li:nth-child(4):hover .submenu{
     display: block;
-}
+} */

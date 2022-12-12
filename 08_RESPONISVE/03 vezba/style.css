@@ -13,11 +13,18 @@
 
 /*  Za mobilini */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:999px) {
     [class*="col-"] {
         width: 100%;
     }
+
+    .meni li {
+        width: 100%;
+    }
+
 }
+
+/*  Za tablet */
 
 
 /* Za desktop */
@@ -63,30 +70,56 @@
     .col-12 {
         width: 100%;
     }
+
+
 }
 
-/* Bojenje elemenata */
-
-header {
-    background-color: orange;
+.naslov {
+    text-align: center;
+    color: blue;
 }
 
-nav {
+.naslov h2 {
+    font-size: 40px;
+}
+
+#logo {
+    width: 150px;
+}
+
+.meni {
+    list-style: none;
+    overflow: hidden;
     background-color: aqua;
 }
 
-section {
-    background-color: purple;
+.meni li {
+    float:left;
+    background-color: aqua;
+    border: 1px solid white;
 }
 
-aside {
-    background-color: olive;
+.meni li a {
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
 }
 
-footer {
-    background-color: yellow;
+.meni li img {
+    padding-top: 10px;
 }
 
-div * {
+.row div {
+    border: 10px solid yellow;
+}
+
+.sadrzaj div{
     padding: 20px;
+}
+
+.sadrzaj div img {
+    width: 300px;
+
 }

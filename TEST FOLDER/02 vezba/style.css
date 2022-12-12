@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+header, nav, article, aside, footer {
+    background-color: gray;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 8px;
+} 
+
+header, nav {
+    padding: 20px 0 20px 0;
+}
+
+.sredina {
+    overflow: hidden;
+}
+
+.article {
+    width: 50%;
+    float: left;
+     padding-right: 5px;
+}
+
+article {
+    height: 200px;
+   
+}
+
+
+.aside {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+
+}
+aside {
+    background-color: aqua;
+    height: 200px;
+}
+
+section {
+    display: block;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}

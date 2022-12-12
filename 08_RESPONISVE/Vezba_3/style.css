@@ -12,14 +12,14 @@
 
 /*  Za mobilini */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 799px) {
     [class*="col-"] {
         width: 100%;
     }
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
     [class*="col-"] {
         float: left;
     }
@@ -70,7 +70,6 @@ header, footer {
 }
 
 #meni {
-    
     overflow: hidden;
 }
 
@@ -82,21 +81,23 @@ header, footer {
 }
 
 
-#meni ul li {
+#meni li a{
+    display: block;
     border-bottom: 1px solid white;
     background-color: turquoise;
 }
 
-#meni ul li a {
+#meni li a {
     color:black;
     text-decoration: none;
+    padding: 20px;
 }
 
-#meni ul li:hover {
+#meni li a:hover {
     background-color: skyblue;
 }
 
-#meni ul li:visited {
+#meni li:visited {
     color: black;
 }
 
@@ -114,10 +115,6 @@ header, footer {
     font-style: italic;
 }
 
-.row div *{
-    padding: 10px 10px 15px 10px;
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -126,4 +123,9 @@ footer {
 h2 {
     padding: 20px 0px 20px 0px;
 }
+
+img {
+    padding: 5px;
+}
+
 

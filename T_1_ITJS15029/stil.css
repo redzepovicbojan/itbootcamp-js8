@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;   
+}
+
+/*  Za mobilini */
+
+@media only screen and (max-width:599px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    p {
+        color: orange;
+    }
+
+    h1:hover, h4:hover {
+        color: orange;
+    }
+}
+
+/*  Za tablet */
+
+@media only screen and (min-width:650px) and (max-width:700px) {
+
+    p {
+        color: green;
+    }
+
+    h1:hover, h4:hover {
+        color: green;
+    }
+   
+}
+
+
+/* Za desktop */
+
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        float: left;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+
+
+}
+
+h1, h4 {
+    background-color: darkorange;
+    text-align: center;
+}
+
+.row div a {
+    display: block;
+    padding: 10px;
+    background-color: darkorange;
+    text-decoration: none;
+    color: black;
+}
+
+.row div a:hover {
+    background-color: orange;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+aside p {
+    padding: 10px;
+}
+
+form .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form .row h4 {
+    padding: 10px 0 10px 0;
+}
+
+label {
+    padding: 2px 2px 2px 8px;
+}
+
+
+input {
+    padding: 2px;
+}
+
+.row img:hover {
+    opacity: 0.5;
+}
+
+.row footer {
+    position: fixed;
+    bottom: 0;
+}
+
