@@ -163,5 +163,94 @@ for(i=1;i<=k;i++){
 }
 console.log(brojac);
 
+// Napraviti tabelu sa 6 redova.
+// Svaki red tabele treba da ima po dve ćelije (dve kolone).
+// Svakom parnom redu dodati klasu „obojen“.
+// Korišćenjem CSS-a, klasi obojen postaviti proizvoljnu boju pozadine. 
 
-// Domaci zadatak 1
+let str = `<table border="1">`;
+for(i=1; i<=6; i++){
+    if(i%2 == 0){
+    str +=
+    `
+        <tr class="roze">
+        <td>Tekst</td>
+        <td>Tekst</td>
+        </tr>
+    `;
+    } 
+    else{
+    str +=
+    `
+        <tr>
+        <td>Tekst</td>
+        <td>Tekst</td>
+        </tr>
+    `;
+    }
+} 
+str += `</table>`;
+
+document.body.innerHTML += str;
+
+// 21. Koristeći for petlju kreirati neuređenu listu sa ugnježdenim elementima, kao što je prikazano na slici sa desne strane.
+
+let lista = `<ul>`;
+for(i=1;i<=10;i++){
+    if(i%3==0){
+        lista += `
+        <li>
+            <ul>
+                <li>Element ${i}</li>
+            </ul>
+        </li>
+        `;
+    } else {
+    lista += `<li>Element ${i}</li>`;
+}
+}
+lista += `</ul>`;
+document.write(lista);
+/*
+<ul>
+    <li>Element 2</li>
+    <li>Element 2</li>
+    <li>
+        <ul>
+            <li>Element 3</li>
+        </ul>
+    </li>
+</ul>
+*/
+
+
+
+// Domaci zadatak
+
+// 1. Kreirati 64 span elemenata i rasporediti ih kao na slici, tako da elementi izgledaju kao polja šahovske table. U realizaciji ovog zadatka koristiti for petlju.
+
+for(i=1;i<=64;i++){
+    if(Math.ceil(i/8)%2 == 0){
+        if (i%8 == 0) {
+            document.write(`<span class="white">${i}</span><br>`); //Ako ovde dodamo jos jedan <br> tag onda ce biti razmak izmedju redova, kao u slici na domacem zadatku.
+        }
+        else if(i%2 == 0) {
+            document.write(`<span class="white">${i}</span>`);
+        }
+        else {
+            document.write(`<span class="black">${i}</span>`);
+        }
+    }
+    else {
+        if (i%8 == 0) {
+            document.write(`<span class="black">${i}</span><br>`); // Ako ovde dodamo jos jedan <br> tag onda ce biti razmak izmedju redova, kao u slici na domacem zadatku.
+        }
+        else if(i%2 == 0) {
+            document.write(`<span class="black">${i}</span>`);
+        }
+        else {
+            document.write(`<span class="white">${i}</span>`);
+        }
+    }
+}
+

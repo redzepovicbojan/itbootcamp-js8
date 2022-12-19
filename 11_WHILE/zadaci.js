@@ -160,14 +160,14 @@ console.log(`Suma brojeva od ${l} do ${m} jednaka je ${suma}`);
 
 let proizvod = 1;
 n=3;
-l=n;
+i=n;
 m=6;
-while (n <= m)
+while (i <= m)
 {
-    proizvod *= n; // suma = suma + i;
-    n++;
+    proizvod *= i; // suma = suma + i;
+    i++;
 }
-console.log(`Proizvod brojeva od ${l} do ${m} jednaka je ${proizvod}`);
+console.log(`Proizvod brojeva od ${n} do ${m} jednaka je ${proizvod}`);
 
 
 // 10. Odrediti sumu kvadrata parnih i sumu kubova neparnih brojeva od n do m
