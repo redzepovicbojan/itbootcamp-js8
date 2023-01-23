@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row height">
+        <div class="col-6 col-t-3 strana">
+            <h1 class="naslov">Cvećara IT Bootcamp</h1>
+        </div>
+        <div class="col-6 col-t-9">
+            <div class="forma">
+                <div>
+                    <h2>Odaberite cveće:</h2>
+                    <p><input type="number" min="0" name="ruze" id="ruze" placeholder="Cena po cvetu je 150 din." style="width: 16em"> Ruže</p>
+                    <p><input type="number" min="0" name="ljiljani" id="ljiljani" placeholder="Cena po cvetu je 120 din." style="width: 16em"> Ljiljani</p>
+                    <p><input type="number" min="0" name="gerberi" id="gerberi"  placeholder="Cena po cvetu je 70 din." style="width: 16em"> Gerberi</p>
+                </div>
+                <div>
+                    <h2>Dodatni pokloni:</h2>
+                    <div><input type="checkbox" name="dodPokl" id="bomb" value="bombonjera"> Bombonjera</div>
+                    <div><input type="checkbox" name="dodPokl" id="coko" value="čokolada"> Čokolada</div>
+                    <div><input type="checkbox" name="dodPokl" id="samp" value="šampanjac"> Šampanjac</div>
+                </div>
+                <div>
+                    <h2>Plaćanje</h2>
+                    <div><input type="radio" name="placanje" id="kes" value="kes" checked> Keš</div>
+                    <div><input type="radio" name="placanje" id="kartica" value="kartica"> Kartica</div>
+                </div>
+                <div>
+                    <input type="button" value="Izračunaj" id="izracunaj">
+                    <input type="button" value="Resetuj" id="reset">
+                </div>
+                <div>
+                    <h2>Vaša porudžbina:</h2>
+                    <div id="prikazRuze"></div>
+                    <div id="prikazLjiljani"></div>
+                    <div id="prikazGerberi"></div>
+                    <div id="prikazDodatno"></div>
+                    <div id="prikazCene"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -155,4 +155,63 @@ function cekanje(t,p,n){
 }
 console.log(cekanje(15,10,12));
 console.log(cekanje(15,20,25));
-console.log(cekanje(25,20,3));
+console.log(cekanje(25,20,5));
+
+
+// Programirati funkciju za mašinu za izradu nogara za stolove u jednoj fabrici drveta. Prva noga stola je duža druge noge stola isto koliko druga noga stola od treće noge stola, isto kao i treća noga stola od četvrte noge stola. Dužina prve noge stola i još dve noge stola su poznate, a četvrta nije poznata. Funkcija fabrika određuje i vraća dužinu izostale noge stola ako se funkciji prosleđuju poznate dužine ostale tri noge stola (dužina prve noge stola i dužine neke dve noge stola).
+
+let duzNogeStola = (a,b,c) => {
+    if(d1-d2 == d2-d3) {
+        return d3-(d2-d3);
+    }
+    else if(d1-d2 > d2-d3){
+        return d1-(d2-d3);
+    }
+    else if(d1-d2 < d2-d3){
+        return d2-(d1-d2);
+    }
+   
+}
+
+console.log(duzNogeStola(150,140,120));
+
+
+brojevi = [-1,-4,0,3,7,7,7,3,5]
+let znakNepar = arr => {
+    for(let i = 0; i < arr.length; i++){
+        if(i%2 == 0 && arr[i] % 2 != 0){
+            arr[i] = arr[i] * (-1);
+        }
+    }
+    return arr;
+}
+
+console.log(znakNepar(brojevi));
+
+
+//Specijalitet jedne poslastičare je slatkiš po imenu jaban koje se pravi od jabuka i banana. Za jednu porciju ovog slatkiša potrebme su 2 jabuke i 3 banane. Poslastičara jabuke i banane dobija od jednog lokalnog dobavljača. U svakoj isporuci ima 20% oštećenih jabuka koje se ne mogu iskoristiti za pripremu jaban slatkiša. Napisati funkciju jaban koja za prosleđeni broj isporučenih jabuka i prosleđeni broj isporučenih banana, određuje i vraća koliko porcija jaban slatkiša je moguće da poslastičar napravi. Broj oštećenih jabuka zaokružiti na najbliži ceo broj.
+
+let jaban = (jabuke, banane) => {
+    let dobreJabuke = jabuke - Math.round(jabuke*0.2);
+    let i = 0;
+    while(dobreJabuke >= 2 && banane >= 3){
+        dobreJabuke -= 2;
+        banane -= 3;
+        i++;
+    }
+    return i;
+}
+console.log(jaban(35,135));
+
+
+let jaban2 = (jabuke, banane) => {
+    let dobreJabuke = Math.round(jabuke*0.8);
+    if(banane>=dobreJabuke*1.5){
+        return Math.floor(dobreJabuke/2);
+    }
+    else{
+        return Math.floor(banane/3);
+    }
+}
+
+console.log(jaban2(35,135));

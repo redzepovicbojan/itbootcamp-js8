@@ -1,0 +1,67 @@
+[
+    {
+        "imePrezime":"LeBron James",
+        "visina":"206",
+        "timovi":["Miami Heat","LA Lakers","Cleveland Cavaliers"]
+    },
+    {
+        "imePrezime":"Nikola Jokic",
+        "visina":"211",
+        "timovi":["FMP","Denver Nugets"]
+    },
+    {
+        "imePrezime":"Luka Doncic",
+        "visina":"201",
+        "timovi":["Real Madrid","Dallas Mavericks"]
+    },
+    {
+        "imePrezime":"Stephen Curry",
+        "visina":"188",
+        "timovi":["Golden State Warriors"]
+    },
+    {
+        "imePrezime":"Russell Westbrook",
+        "visina":"191",
+        "timovi":["Oklahoma City Thunder","Houston Rockets","Washington Wizards", "LA Lakers"]
+    },
+    {
+        "imePrezime":"Anthony Davis",
+        "visina":"208",
+        "timovi":["New Orleans","LA Lakers"]
+    },
+    {
+        "imePrezime":"Kyle Kuzma",
+        "visina":"206",
+        "timovi":["LA Lakers","Washington Wizards"]
+    },
+    {
+        "imePrezime":"James Harden",
+        "visina":"196",
+        "timovi":["Oklahoma City Thunder","Houston Rockets","Brooklyn Nets", "Philadelphia 76ers"]
+    },
+    {
+        "imePrezime":"Kevin Durant",
+        "visina":"208",
+        "timovi":["Oklahoma City Thunder","Golden State Warriors","Brooklyn Nets"]
+    },
+    {
+        "imePrezime":"Jamal Murray",
+        "visina":"193",
+        "timovi":["Denver Nugets"]
+    },
+    {
+        "imePrezime":"Brandon Ingram",
+        "visina":"203",
+        "timovi":["LA Lakers","New Orleans"]
+    },
+    {
+        "imePrezime":"Jordan Clarkson",
+        "visina":"196",
+        "timovi":["LA Lakers","Cleveland Cavaliers","Utah Jazz"]
+    },
+    {
+        "imePrezime":"Julius Randle",
+        "visina":"203",
+        "timovi":["LA Lakers","New Orleans","New York Knicks"]
+    }
+]

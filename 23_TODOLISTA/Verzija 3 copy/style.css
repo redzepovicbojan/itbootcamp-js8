@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    margin-left: 10px;
+    color: dodgerblue;
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    list-style-type: none;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    width: 270px;
+    border: 1px dotted blue;
+}
+li:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.precrtaj {
+    text-decoration: line-through;
+}
+
+#inputdodaj {
+    margin: 10px;
+    padding: 10px;
+    width: 270px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    width: 292px;
+}
